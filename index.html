@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="description"
-        content="MotionEditor: Motion Transfer via Content-Aware Diffusion in Video Editing.">
+        content="MotionEditor: Editing Video Motion via Content-Aware Diffusion.">
     <meta name="keywords" content="Diffusion Model">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MotionEditor: Motion Transfer via Content-Aware Diffusion in Video Editing</title>
+    <title>MotionEditor: Editing Video Motion via Content-Aware Diffusion</title>
 
     <script type="text/x-mathjax-config">
     MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
@@ -39,7 +39,7 @@
             <div class="container is-max-desktop">
                 <div class="columns is-centered">
                     <div class="column has-text-centered">
-                        <h1 class="title is-1 publication-title">MotionEditor: Motion Transfer via Content-Aware Diffusion in Video Editing</h1>
+                        <h1 class="title is-1 publication-title">MotionEditor: Editing Video Motion via Content-Aware Diffusion</h1>
                         <div class="is-size-5 publication-authors">
                             <span class="author-block">
                                 Anonymous
@@ -64,312 +64,133 @@
                 <br>
                 <tr>
                     <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="1024"
-                            height="1024" src="assets/visual/video_1/source_result.gif"></td>
+                            height="1024" src="assets/visual/video_1/result.gif"></td>
+                </tr>
+                <tr>
                     <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="1024"
-                            height="1024" src="assets/visual/video_1/target_result.gif"></td>
-                    <td align="left"  style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="1024"
-                            height="1024" src="assets/visual/video_1/edited_result.gif"></td>
-                </tr>
-                <tr>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px"> Source Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Reference Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Edited Video</td>
-                </tr>
-                <tr>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_2/source_result.gif">
-                    </td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256" src="assets/visual/video_2/target_result.gif"></td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_2/edited_result.gif">
+                            height="1024"
+                            src="assets/visual/video_2/result.gif">
                     </td>
                 </tr>
                 <tr>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Source Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Reference Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Edited Video</td>
-                </tr>
-
-                <tr>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_3/source_result.gif">
-                    </td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256" src="assets/visual/video_3/target_result.gif"></td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_3/edited_result.gif">
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="1024"
+                            height="1024"
+                            src="assets/visual/video_3/result.gif">
                     </td>
                 </tr>
                 <tr>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Source Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Reference Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Edited Video</td>
-                </tr>
-
-                <tr>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_4/source_result.gif">
-                    </td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256" src="assets/visual/video_4/target_result.gif"></td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_4/edited_result.gif">
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="1024"
+                            height="1024"
+                            src="assets/visual/video_4/result.gif">
                     </td>
                 </tr>
                 <tr>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Source Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Reference Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Edited Video</td>
-                </tr>
-
-                <tr>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_5/source_result.gif">
-                    </td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256" src="assets/visual/video_5/target_result.gif"></td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_5/edited_result.gif">
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="1024"
+                            height="1024"
+                            src="assets/visual/video_5/result.gif">
                     </td>
                 </tr>
                 <tr>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Source Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Reference Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Edited Video</td>
-                </tr>
-
-                <tr>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_6/source_result.gif">
-                    </td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256" src="assets/visual/video_6/target_result.gif"></td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_6/edited_result.gif">
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="1024"
+                            height="1024"
+                            src="assets/visual/video_6/result.gif">
                     </td>
                 </tr>
                 <tr>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Source Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Reference Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Edited Video</td>
-                </tr>
-
-                <tr>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_7/source_result.gif">
-                    </td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256" src="assets/visual/video_7/target_result.gif"></td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_7/edited_result.gif">
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="1024"
+                            height="1024"
+                            src="assets/visual/video_7/result.gif">
                     </td>
                 </tr>
                 <tr>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Source Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Reference Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Edited Video</td>
-                </tr>
-
-                <tr>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_8/source_result.gif">
-                    </td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256" src="assets/visual/video_8/target_result.gif"></td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_8/edited_result.gif">
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="1024"
+                            height="1024"
+                            src="assets/visual/video_8/result.gif">
                     </td>
                 </tr>
                 <tr>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Source Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Reference Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Edited Video</td>
-                </tr>
-
-                <tr>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_9/source_result.gif">
-                    </td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256" src="assets/visual/video_9/target_result.gif"></td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_9/edited_result.gif">
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="1024"
+                            height="1024"
+                            src="assets/visual/video_9/result.gif">
                     </td>
                 </tr>
                 <tr>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Source Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Reference Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Edited Video</td>
-                </tr>
-
-                <tr>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_10/source_result.gif">
-                    </td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256" src="assets/visual/video_10/target_result.gif"></td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_10/edited_result.gif">
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="1024"
+                            height="1024"
+                            src="assets/visual/video_10/result.gif">
                     </td>
                 </tr>
                 <tr>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Source Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Reference Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Edited Video</td>
-                </tr>
-
-                <tr>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_11/source_result.gif">
-                    </td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256" src="assets/visual/video_11/target_result.gif"></td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_11/edited_result.gif">
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="1024"
+                            height="1024"
+                            src="assets/visual/video_11/result.gif">
                     </td>
                 </tr>
                 <tr>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Source Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Reference Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Edited Video</td>
-                </tr>
-
-                <tr>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_12/source_result.gif">
-                    </td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256" src="assets/visual/video_12/target_result.gif"></td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_12/edited_result.gif">
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="1024"
+                            height="1024"
+                            src="assets/visual/video_12/result.gif">
                     </td>
                 </tr>
                 <tr>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Source Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Reference Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Edited Video</td>
-                </tr>
-
-                <tr>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_13/source_result.gif">
-                    </td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256" src="assets/visual/video_13/target_result.gif"></td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_13/edited_result.gif">
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="1024"
+                            height="1024"
+                            src="assets/visual/video_13/result.gif">
                     </td>
                 </tr>
                 <tr>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Source Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Reference Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Edited Video</td>
-                </tr>
-
-                <tr>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_14/source_result.gif">
-                    </td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256" src="assets/visual/video_14/target_result.gif"></td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_14/edited_result.gif">
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="1024"
+                            height="1024"
+                            src="assets/visual/video_14/result.gif">
                     </td>
                 </tr>
                 <tr>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Source Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Reference Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Edited Video</td>
-                </tr>
-
-                <tr>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_15/source_result.gif">
-                    </td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256" src="assets/visual/video_15/target_result.gif"></td>
-                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="256"
-                            height="256"
-                            src="assets/visual/video_15/edited_result.gif">
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="1024"
+                            height="1024"
+                            src="assets/visual/video_15/result.gif">
                     </td>
                 </tr>
                 <tr>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Source Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Reference Video</td>
-                    <td width="256" valign="middle" halign="middle" align="center"
-                        style="font-size:13px; padding-bottom:20px">Edited Video</td>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="1024"
+                            height="1024"
+                            src="assets/visual/video_16/result.gif">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="1024"
+                            height="1024"
+                            src="assets/visual/video_17/result.gif">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="1024"
+                            height="1024"
+                            src="assets/visual/video_18/result.gif">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="1024"
+                            height="1024"
+                            src="assets/visual/video_19/result.gif">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="1024"
+                            height="1024"
+                            src="assets/visual/video_20/result.gif">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="1024"
+                            height="1024"
+                            src="assets/visual/video_21/result.gif">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="1024"
+                            height="1024"
+                            src="assets/visual/video_22/result.gif">
+                    </td>
                 </tr>
             </table>
         </center>
@@ -382,8 +203,16 @@
                     <h2 class="title is-3">Abstract</h2>
                     <div class="content has-text-justified">
                         <p>
-                            Existing diffusion-based video editing models have made gorgeous advances to edit attributes of source video over time but struggle to manipulate the motion information while preserving the original protagonist's appearance and background. In this paper, we propose MotionEditor, the first diffusion-based model to tackle video motion editing. MotionEditor plugs a novel temporal-latent-aware adapter into ControlNet for capturing temporal motion correspondences. However, adopting ControlNet to exploit the motion feature at the independent frame-wise level is challenging as the original ControlNet is derived from the image domain, which results in temporal inconsistency. Our adapter complements the ControlNet by leveraging mutual layered frame-wise representations and layered motion representations to transfer disentangled motion information across each frame. Further, we build up a two-branch architecture (a reconstruction branch and an editing branch) with an attention injection mechanism facilitating branch interaction. This mechanism enables the editing branch to query the key and value from the reconstruction branch in a decoupled manner,  the editing branch to retain the original background and protagonist appearance.
-We also propose a skeleton alignment algorithm to counter the size and position disparities in the poses between the source and target videos. Extensive experiments demonstrate the promising motion editing ability of MotionEditor, both qualitatively and quantitatively.
+                            Existing diffusion-based video editing models have made gorgeous advances for editing attributes of a source video over time but struggle to manipulate the motion information while preserving the original protagonist's appearance and background.
+To address this, we propose MotionEditor, the first diffusion model for video motion editing.
+MotionEditor incorporates a novel content-aware motion adapter into ControlNet to capture temporal motion correspondence.
+While ControlNet enables direct generation based on skeleton poses, it encounters challenges when modifying the source motion in the inverted noise due to contradictory signals between the noise (source) and the condition (reference).
+Our adapter complements ControlNet by involving source content to transfer adapted control signals seamlessly.
+Further, we build up a two-branch architecture (a reconstruction branch and an editing branch) with a high-fidelity attention injection mechanism facilitating branch interaction.
+This mechanism enables the editing branch to query the key and value from the reconstruction branch in a decoupled manner, making the editing branch retain the original background and protagonist appearance.
+We also propose a skeleton alignment algorithm to address the discrepancies in pose size and position.
+Experiments demonstrate the promising motion editing ability of MotionEditor, both qualitatively and quantitatively.
+To the best of our knowledge, MotionEditor is the first diffusion-based model capable of video motion editing.
                         </p>
                     </div>
                 </div>
@@ -397,7 +226,7 @@ We also propose a skeleton alignment algorithm to counter the size and position 
 
     <section class="section" id="t2v_comp">
         <center>
-            <h2 class="title is-3">Video Motion Editing Comparison</h2>
+            <h2 class="title is-3">Video Motion Editing Comparison (1/2)</h2>
         </center>
         <center>
             <table align="center">
@@ -496,7 +325,111 @@ We also propose a skeleton alignment algorithm to counter the size and position 
                 </tr>
             </table>
         </center>
+
+
+        <center>
+            <h2 class="title is-3">Video Motion Editing Comparison (2/2)</h2>
+        </center>
+        <center>
+            <table align="center">
+                <div class="large-4 columns">
+                </div>
+                <br>
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:20px; padding-top:110px"> Liquid Warping GAN</td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/comparison_2/source.gif"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/comparison_2/target.gif"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/comparison_2/GAN-1.gif"></td>
+                </tr>
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:20px; padding-top:110px"> Motion Representations Articulated Animation</td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/comparison_2/source.gif"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/comparison_2/target.gif"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/comparison_2/GAN-2.gif"></td>
+                </tr>
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:20px; padding-top:110px">Tune-A-Video</td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/comparison_2/source.gif"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/comparison_2/target.gif"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/comparison_2/Tune-A-Video.gif"></td>
+                </tr>
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:20px; padding-top:110px"> Follow-Your-Pose</td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/comparison_2/source.gif"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/comparison_2/target.gif"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/comparison_2/Follow-Your-pose.gif"></td>
+                </tr>
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:20px; padding-top:110px"> ControlVideo</td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/comparison_2/source.gif"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/comparison_2/target.gif"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/comparison_2/ControlVideo.gif"></td>
+                </tr>
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:20px; padding-top:110px">Masactrl</td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/comparison_2/source.gif"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/comparison_2/target.gif"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/comparison_2/Masactrl.gif"></td>
+                </tr>
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:20px; padding-top:110px">FateZero</td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/comparison_2/source.gif"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/comparison_2/target.gif"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/comparison_2/FateZero.gif"></td>
+                </tr>
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:20px; padding-top:110px">MotionEditor (Ours)</td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/comparison_2/source.gif"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/comparison_2/target.gif"></td>
+                    <td align="left" style="padding-left: 0px;"><img class="center" width="256" height="256"
+                            src="assets/visual/comparison_2/edited.gif"></td>
+                </tr>
+                <tr>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:13px; padding-bottom:20px"></td>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:13px; padding-bottom:20px">Source Video</td>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:13px; padding-bottom:20px">Reference Video</td>
+                    <td width="256" valign="middle" halign="middle" align="center"
+                        style="font-size:13px; padding-bottom:20px">Edited Video</td>
+                </tr>
+            </table>
+        </center>
     </section>
+
+
 
 
 
